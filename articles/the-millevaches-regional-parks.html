@@ -13,28 +13,33 @@
     </head>
     <body class="bg-gray-16">
         
+        <!-- NAV -->
+        
+        <nav class="fixed top-0 w-100 z-1 s-p-16 m-p-24 l-p-32">
+            <div class="w-100">
+                <ul class="grid s-p-16 m-p-24 l-p-32 bg-gray-12 border rounded gray-32">
+                    <li class="s-col-span-3 m-col-span-4 l-col-span-4 text-sm font-semibold gray-96">Manu's Travel</li>
+                    <li class="s-col-span-3 m-col-span-8 l-col-span-8 flex justify-self-end">
+                        <ul class="flex gap-8">
+                            <li><a href="../index.html" class="link text-sm gray-72">All collections</a></li>
+                            <li class="s-hidden m-block text-sm gray-72">/</li>
+                            <li class="s-hidden m-block"><a href="../collections/bikepacking-towards-the-sahara.html" class="link text-sm gray-72">Bikepacking towards the Sahara</a></li>
+                            <li class="s-hidden m-block text-sm gray-72">/</li>
+                            <li class="s-hidden m-block text-sm font-semibold gray-72">The Millevaches Regional Park</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
         <!-- HEADER -->
         
-        <header class="flex flex-col s-mt-16 m-mt-24 l-mt-32 s-px-16 m-px-24 l-px-32 h-80vh">
-           <nav class="grid-cols-2 s-col-span-2">
-                <div class="flex s-col-span-2 l-col-span-1 gap-8">
-                    <p class="text-sm font-semibold gray-96">Manuel Sourdrille</p>
-                    <p class="text-sm gray-72">A no-nonsense travel blog</p>
-                </div>
-                <div class="flex s-col-span-2 l-col-span-1 gap-8 s-mt-16 m-mt-24 l-mt-0 s-justify-self-auto l-justify-self-end">
-                    <a href="../index.html" class="link-standalone text-sm gray-72">Collections</a>
-                    <p class="text-sm gray-72">/</p>
-                    <a href="../collections/bikepacking-towards-the-sahara.html" class="link-standalone text-sm gray-72">Bikepacking towards the Sahara</a>
-                    <p class="text-sm gray-72">/</p>
-                    <p class="text-sm font-semibold gray-96">The Millevaches Regional Park</p>
-                </div>
-            </nav>
+        <header class="flex flex-col s-mt-72 m-mt-96 l-mt-128 s-px-16 m-px-24 l-px-32 h-80vh">
             <div id="article-001" class="grid-cols-2 justify-items-center rounded s-mt-16 m-mt-24 l-mt-32">
                 <div class="container grid s-col-span-2 items-center s-px-16 m-px-24 l-px-0">
-                    <div class="flex flex-col s-col-span-4 m-col-span-12 l-col-span-12">
+                    <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-span-12">
                         <p class="text-sm text-center font-semibold gray-96">Article 1 <span class="italic">of</span> 10</p>
                         <h1 class="s-mt-16 text-3xl font-medium text-center gray-96">The Millevaches Regional Park</h1>
-                        <img class="s-mt-16 m-mt-24 l-mt-32 self-center" src="../assets/graphic-wave.svg">
                     </div>
                 </div>
             </div>
@@ -44,11 +49,11 @@
         
         <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <div class="s-col-span-4 m-col-span-12 l-col-span-12 content-w justify-self-center">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-12 content-w justify-self-center">
                     <h2 class="s-mt-8 m-mt-16 text-2xl text-center font-semibold primary-88">Itinerary</h2>
                     <p class="s-mt-16 m-mt-24 l-mt-32 text-md text-center gray-72">This route goes through the <span class="font-semibold">Parc Naturel Régional de la Brenne</span> and the <span class="font-semibold">Parc Naturel Régional de Millevaches</span>. A <span class="italic">voie verte</span> goes almost entirely from Poitiers to Argenton-sur-Creuse. After Guéret, the route gently goes up, and the scenery changes, from wheat fields to pastures and forests. North of Argentat, you eventually reach the river Dordogne, flowing between steep cliffs.</p>
                 </div>
-                <div class="s-col-span-4 m-col-span-12 l-col-span-8 s-mt-64 m-mt-96 l-mt-128 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-8 s-mt-64 m-mt-96 l-mt-128 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
                     <h3 class="text-lg font-semibold gray-96">Statistics</h3>
                     <ul class="s-mt-8 m-mt-16 l-mt-32">
                         <li class="s-py-16 l-py-24 border-b gray-32">
@@ -89,7 +94,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="s-col-span-4 m-col-span-12 l-col-span-4 s-mt-16 m-mt-24 l-mt-128 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-4 s-mt-16 m-mt-24 l-mt-128 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
                     <h3 class="text-lg font-semibold gray-96">Resources</h3>
                     <div class="flex flex-wrap gap-16">
                         <p><a class="flex items-center s-mt-16 btn-secondary text-sm font-semibold secondary-88" href="https://www.komoot.com/fr-fr/collection/1877170/-bikepacking-toward-the-sahara-desert" target="blank">Komoot<img class="s-ml-4" src="../assets/icon-external-link.svg"></a></p>
@@ -98,8 +103,8 @@
                         <p><a class="flex items-center s-mt-16 btn-secondary text-sm font-semibold secondary-88" href="https://lighterpack.com/r/ruee03" target="blank">Lighterpack<img class="s-ml-4" src="../assets/icon-external-link.svg"></a></p>
                     </div>
                 </div>
-                <img class="s-col-span-4 m-col-span-12 l-col-span-12 s-mt-16 m-mt-24 l-mt-32 border rounded gray-32" src="../assets/collection01-article01-map.jpg">
-                <div class="s-col-span-4 m-col-span-12 l-col-span-12 s-mt-16 m-mt-24 l-mt-32 l-px-32">
+                <img class="s-col-span-6 m-col-span-12 l-col-span-12 s-mt-16 m-mt-24 l-mt-32 border rounded gray-32" src="../assets/collection01-article01-map.jpg">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-12 s-mt-16 m-mt-24 l-mt-32 l-px-32">
                     <h3 class="text-lg font-semibold gray-96">Highlights</h3>
                     <ul class="grid-cols-2 s-mt-16 l-mt-24">
                         <li class="l-cols-span-1">
@@ -122,7 +127,7 @@
         </section>
         
         <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128">
-            <div class="container-wide border-t gray-32"></div>
+            <div class="w-100 border-t gray-32"></div>
         </section>
     
         
@@ -130,7 +135,7 @@
         
         <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <div class="s-col-span-4 m-col-span-12 l-col-span-12 content-w justify-self-center">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-12 content-w justify-self-center">
                     <h2 class="s-mt-8 text-2xl text-center font-semibold primary-88">Story</h2>
                     <p class="s-mt-16 m-mt-24 l-mt-32 text-md gray-72">After enjoying a great summer with friends and family, I continued my journey southwards with the goal of reaching Sicily by December. Two days earlier, in Nantes, I celebrated my birthday with my friends and the start of my trip. The next day, I went out with Nicolas and Bastien for the evening.</p>
                     <p class="s-mt-16 m-mt-24 l-mt-32 text-md gray-72">A day later, while sitting on the train toward new adventures, I felt sad to leave my loved ones and perhaps the comfort of home. I knew that winter would likely bring cold and wet weather. Despite the beautiful weather that day, the feeling persisted. It may take a few days or even weeks to adjust. While writing down my notes that evening, I felt a bit more at peace.</p>
@@ -143,65 +148,65 @@
             <img class="s-col-span-2 m-col-span-1 s-mt-8 m-mt-0" src="../assets/20211007-173054.jpg">
         </div>
         <section class="grid s-px-16 m-px-24">
-            <p class="s-col-span-4 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> The medieval town of Chauvigny and its XII-century ruins.</p>
-            <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">I found a spot for the night right at the beginning of the greenway, which is also the end of the Vélorail. It had tables, bins, and a tree cover. The only downside was the proximity of the road, which had very little traffic anyway. It was an easy day to start with.</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> The medieval town of Chauvigny and its XII-century ruins.</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">I found a spot for the night right at the beginning of the greenway, which is also the end of the Vélorail. It had tables, bins, and a tree cover. The only downside was the proximity of the road, which had very little traffic anyway. It was an easy day to start with.</p>
         </section>
         <section class="grid s-px-16 m-px-24 l-px-0">
-            <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-16 m-mt-24 l-mt-32 content-w justify-self-center text-md gray-72">I woke up before sunrise but decided to go back to sleep as I didn't want to ride in the dark yet. At 7 am, I started packing my gear. Although the tent was dry, the temperature was cold. It took almost two hours to pack, breakfast included. I need to be more efficient. The sun had just appeared when I finally took off.</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 m-mt-24 l-mt-32 content-w justify-self-center text-md gray-72">I woke up before sunrise but decided to go back to sleep as I didn't want to ride in the dark yet. At 7 am, I started packing my gear. Although the tent was dry, the temperature was cold. It took almost two hours to pack, breakfast included. I need to be more efficient. The sun had just appeared when I finally took off.</p>
         </section>
         <section class="flex justify-center">
             <img class="container s-mt-32 m-mt-64 l-mt-96" src="../assets/20211008-083048.jpg">
         </section>
         <section class="grid s-px-16 m-px-24 l-px-0">
-            <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">The morning ride was really enjoyable and peaceful thanks to the empty greenway. I even saw some deer. I reached Le Blanc around noon and stopped to buy food. Then, I ate along the greenway at the former railway station. Two young men came to talk to me. They didn't seem very smart and kept talking about girls.</p>
-            <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-md gray-72">By 2 pm, the temperature had risen to a comfortable level, so I changed into shorts and a t-shirt. The route wasn't very interesting, but the nice weather and the succession of trees and bridges over rivers made it pleasant. Eventually, I reached Argenton and was amazed by its beauty: traditional houses built directly into the river. Further, I met an Englishman who seemed to have issues with his bike, so I offered to help.</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">The morning ride was really enjoyable and peaceful thanks to the empty greenway. I even saw some deer. I reached Le Blanc around noon and stopped to buy food. Then, I ate along the greenway at the former railway station. Two young men came to talk to me. They didn't seem very smart and kept talking about girls.</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-md gray-72">By 2 pm, the temperature had risen to a comfortable level, so I changed into shorts and a t-shirt. The route wasn't very interesting, but the nice weather and the succession of trees and bridges over rivers made it pleasant. Eventually, I reached Argenton and was amazed by its beauty: traditional houses built directly into the river. Further, I met an Englishman who seemed to have issues with his bike, so I offered to help.</p>
         </section>
         <section class="flex justify-center">
             <div class="container grid gap-8">
-                <img class="s-col-span-4 m-col-span-6 l-col-1-7 s-mt-32 m-mt-64 l-mt-96" src="../assets/20211008-171754.jpg">
-                <img class="s-col-span-4 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0 self-end" src="../assets/20211008-171835.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-1-7 s-mt-32 m-mt-64 l-mt-96" src="../assets/20211008-171754.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0 self-end" src="../assets/20211008-171835.jpg">
             </div>
         </section>
         <section class="flex justify-center">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <p class="s-col-span-4 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> Argenton-Sur-Creuse, built on either sides of the river.</p>
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">I kept riding until I realized I was on the wrong track. I decided to go a bit further to a small pond I had seen on the map, and I was stunned when it appeared: it was some kind of public park with cut grass, tables, and various trees, but the only inhabited place around was a farm. It felt warmer than the evening before. Overall, I felt better today.</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> Argenton-Sur-Creuse, built on either sides of the river.</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">I kept riding until I realized I was on the wrong track. I decided to go a bit further to a small pond I had seen on the map, and I was stunned when it appeared: it was some kind of public park with cut grass, tables, and various trees, but the only inhabited place around was a farm. It felt warmer than the evening before. Overall, I felt better today.</p>
             </div>
         </section>
         <section class="flex justify-center">
             <div class="container grid gap-8">
-                <img class="s-col-span-4 m-col-span-6 l-col-1-7 s-mt-32 m-mt-64 l-mt-96" src="../assets/20211009-101424.jpg">
-                <img class="s-col-span-4 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0 self-end" src="../assets/20211009-092531.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-1-7 s-mt-32 m-mt-64 l-mt-96" src="../assets/20211009-101424.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0 self-end" src="../assets/20211009-092531.jpg">
             </div>
         </section>
         <section class="flex justify-center">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">It's already quite late and I just realized that I haven't written anything yet. Today was the best day so far. The scenery started to change and became quite beautiful towards the end of the day. In the morning, it was colder than the day before. The fog was very thick, but thanks to the tree cover, my gear was dry. The morning light was stunning, as were the many dirt tracks I rode on. Eventually, I chose asphalt to go faster.</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">It's already quite late and I just realized that I haven't written anything yet. Today was the best day so far. The scenery started to change and became quite beautiful towards the end of the day. In the morning, it was colder than the day before. The fog was very thick, but thanks to the tree cover, my gear was dry. The morning light was stunning, as were the many dirt tracks I rode on. Eventually, I chose asphalt to go faster.</p>
             </div>
         </section>
         <section class="flex justify-center s-mt-32 m-mt-64 l-mt-96">
             <div class="container grid gap-8">
-                <img class="s-col-span-4 m-col-span-6 l-col-1-7" src="../assets/20211009-094126.jpg">
-                <img class="s-col-span-4 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0" src="../assets/20211009-094151.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-1-7" src="../assets/20211009-094126.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0" src="../assets/20211009-094151.jpg">
             </div>
         </section>
         <section class="flex justify-center">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">Crozant and its ruins were nice and more touristy than everything else I saw in the morning. I met a tourer and saw a tiny house. There were hunters in the morning, as well as my first climbs. I bought food and ate in front of the supermarket. The greenway wasn't really maintained but it was fun nonetheless.</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">Crozant and its ruins were nice and more touristy than everything else I saw in the morning. I met a tourer and saw a tiny house. There were hunters in the morning, as well as my first climbs. I bought food and ate in front of the supermarket. The greenway wasn't really maintained but it was fun nonetheless.</p>
                 </div>
         </section>
         <section class="flex justify-center s-mt-32 m-mt-64 l-mt-96">
             <div class="container grid gap-8">
-                <img class="s-col-span-4 m-col-span-6 l-col-1-7" src="../assets/20211009-124145.jpg">
-                <img class="s-col-span-4 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0 self-end" src="../assets/20211009-171728.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-1-7" src="../assets/20211009-124145.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0 self-end" src="../assets/20211009-171728.jpg">
             </div>
         </section>
         <section class="flex justify-center">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <p class="s-col-span-4 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> The origin of the old fortress of Crozant seems to date back to the sixth century</p>
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">I camped in Guéret, in a park where it clearly says that it's forbidden, right next to the camping. Once again, it was foggy in the morning. Some joggers passed by, but I'm not sure if they noticed me since daylight hadn't arrived yet. I packed everything and went around the lake. The views of the lake, half-hidden by the fog, were stunning. Although my hands were quite cold, I took the time to take some pictures.</p>
-                <img class="s-col-span-4 m-col-span-12 l-col-span-12 s-mt-32 m-mt-64 l-mt-96" src="../assets/20211010-090843.jpg">
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">Then, I started the ascent of the summit next to Guéret. It wasn't a difficult or long climb, but I stopped halfway to change into shorts. At the top, I was above a sea of clouds; it was amazing. I changed clothes again to ride down. The countryside was very picturesque, with hills, pastures, forests, and small houses. From time to time, the landscape opened up and offered a view of the surrounding valleys and hills. I stopped for lunch at Bourganeuf, next to the castle. A talkative man came to chat with me about various things.</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> The origin of the old fortress of Crozant seems to date back to the sixth century</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">I camped in Guéret, in a park where it clearly says that it's forbidden, right next to the camping. Once again, it was foggy in the morning. Some joggers passed by, but I'm not sure if they noticed me since daylight hadn't arrived yet. I packed everything and went around the lake. The views of the lake, half-hidden by the fog, were stunning. Although my hands were quite cold, I took the time to take some pictures.</p>
+                <img class="s-col-span-6 m-col-span-12 l-col-span-12 s-mt-32 m-mt-64 l-mt-96" src="../assets/20211010-090843.jpg">
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">Then, I started the ascent of the summit next to Guéret. It wasn't a difficult or long climb, but I stopped halfway to change into shorts. At the top, I was above a sea of clouds; it was amazing. I changed clothes again to ride down. The countryside was very picturesque, with hills, pastures, forests, and small houses. From time to time, the landscape opened up and offered a view of the surrounding valleys and hills. I stopped for lunch at Bourganeuf, next to the castle. A talkative man came to chat with me about various things.</p>
             </div>
         </section>
         <div class="grid-cols-2 gap-8 s-mt-32 m-mt-64 l-mt-96">
@@ -209,33 +214,33 @@
             <img class="s-col-span-2 m-col-span-1 s-mt-8 m-mt-0" src="../assets/20211010-155333.jpg">
         </div>
         <section class="grid s-px-16 m-px-24">
-            <p class="s-col-span-4 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> The Maupuy rises to 683 meters</p>
-            <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">In the afternoon, I rode to Lac de Vassivière, and I was surprised by how beautiful and peaceful it was. I found a campsite with a view, despite the camping prohibition on the island. I am very tired this evening, and I feel like it's affecting my mental strength as well. I am happy that the sun is still with me, but I am a bit anxious about the upcoming lower temperatures.</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> The Maupuy rises to 683 meters</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">In the afternoon, I rode to Lac de Vassivière, and I was surprised by how beautiful and peaceful it was. I found a campsite with a view, despite the camping prohibition on the island. I am very tired this evening, and I feel like it's affecting my mental strength as well. I am happy that the sun is still with me, but I am a bit anxious about the upcoming lower temperatures.</p>
         </section>
         <section class="flex justify-center s-mt-32 m-mt-64 l-mt-96">
             <div class="container grid gap-8">
-                <img class="s-col-span-4 m-col-span-6 l-col-1-7" src="../assets/20211010-192843.jpg">
-                <img class="s-col-span-4 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0 self-end" src="../assets/20211010-190421.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-1-7" src="../assets/20211010-192843.jpg">
+                <img class="s-col-span-6 m-col-span-6 l-col-7-13 s-mt-8 m-mt-0 self-end" src="../assets/20211010-190421.jpg">
             </div>
         </section>
         <section class="flex justify-center">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">The morning light in Vassivière reminded me of a cold morning by the sea in Finland: yellow-leaved birches, pines, dark blue water, and small islands scattered around. It was cold but stunning.</p>
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-md gray-72">I rode to Faux-la-Montagne where I watched people greeting each other while going to the bakery, early workers jumping in their pick-ups, and retirees walking by. It was a beautiful scene. I left the town and right before turning onto a gravel track, I met Cyril, a tourer coming from Cahors. He spoke about Najac, Saint-Cirq-Lapopie, Cordes-sur-Ciel, and other villages. He was from Lausanne.</p>
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-md gray-72">The dirt tracks were great and a nice change. I spotted a yurt and a few cabins hidden in the bushes. The scenery was less inviting: there were more conifers, marshlands, and thorny plants than the days before. However, I was quite high up and could often see far away. I stopped for lunch next to a small train station and enjoyed the warm sun. The last push was a very difficult road leading back up the hills, but I found a cozy hidden spot on private land. A stream ran below.</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">The morning light in Vassivière reminded me of a cold morning by the sea in Finland: yellow-leaved birches, pines, dark blue water, and small islands scattered around. It was cold but stunning.</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-md gray-72">I rode to Faux-la-Montagne where I watched people greeting each other while going to the bakery, early workers jumping in their pick-ups, and retirees walking by. It was a beautiful scene. I left the town and right before turning onto a gravel track, I met Cyril, a tourer coming from Cahors. He spoke about Najac, Saint-Cirq-Lapopie, Cordes-sur-Ciel, and other villages. He was from Lausanne.</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-md gray-72">The dirt tracks were great and a nice change. I spotted a yurt and a few cabins hidden in the bushes. The scenery was less inviting: there were more conifers, marshlands, and thorny plants than the days before. However, I was quite high up and could often see far away. I stopped for lunch next to a small train station and enjoyed the warm sun. The last push was a very difficult road leading back up the hills, but I found a cozy hidden spot on private land. A stream ran below.</p>
             </div>
         </section>
         <section class="flex justify-center s-mt-32 m-mt-64 l-mt-96">
             <div class="container grid gap-8">
-                <img class="s-col-span-4 m-col-span-3 l-col-1-7" src="../assets/20211011-133441.jpg">
-                <img class="s-col-span-4 m-col-span-3 l-col-7-13 s-mt-8 m-mt-0 l-mt-8" src="../assets/20211011-120125.jpg">
-                <img class="s-col-span-4 m-col-span-3 l-col-1-7 s-mt-8 m-mt-0" src="../assets/20211011-120035.jpg">
-                <img class="s-col-span-4 m-col-span-3 l-col-7-13 s-mt-8 m-mt-0 l-mt-8" src="../assets/20211012-151553.jpg">
+                <img class="s-col-span-6 m-col-span-3 l-col-1-7" src="../assets/20211011-133441.jpg">
+                <img class="s-col-span-6 m-col-span-3 l-col-7-13 s-mt-8 m-mt-0 l-mt-8" src="../assets/20211011-120125.jpg">
+                <img class="s-col-span-6 m-col-span-3 l-col-1-7 s-mt-8 m-mt-0" src="../assets/20211011-120035.jpg">
+                <img class="s-col-span-6 m-col-span-3 l-col-7-13 s-mt-8 m-mt-0 l-mt-8" src="../assets/20211012-151553.jpg">
             </div>
         </section>
         <section class="flex justify-center">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">This evening, I am really tired, especially mentally. I can't pinpoint where the unsatisfactory feeling is coming from. I think I miss home, it might be the lack of comfort or the change of habit</p>
+                <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">This evening, I am really tired, especially mentally. I can't pinpoint where the unsatisfactory feeling is coming from. I think I miss home, it might be the lack of comfort or the change of habit</p>
             </div>
         </section>
         <div class="grid-cols-2 gap-8 s-mt-32 m-mt-64 l-mt-96">
@@ -243,8 +248,8 @@
             <img class="s-col-span-2 m-col-span-1 s-mt-8 m-mt-0" src="../assets/20211012-100930.jpg">
         </div>
         <section class="grid s-px-16 m-px-24">
-            <p class="s-col-span-4 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> Stealth camping</p>
-            <p class="s-col-span-4 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">This morning, it didn't feel as cold as the previous days and I quickly changes clothes. The spot was private but I imagined it was a good place for a geodome. The many twisting roads and tracks were fantastic. After Corrèze, It became more flat and so riding was more pleasant. I spent lunchtime next to a beautiful lake, talking with two retired women. They even gave me some rosé. I reached the Dordogne river at the end of the day, and found a spot in the forest, above the river.</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.2</span> Stealth camping</p>
+            <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">This morning, it didn't feel as cold as the previous days and I quickly changes clothes. The spot was private but I imagined it was a good place for a geodome. The many twisting roads and tracks were fantastic. After Corrèze, It became more flat and so riding was more pleasant. I spent lunchtime next to a beautiful lake, talking with two retired women. They even gave me some rosé. I reached the Dordogne river at the end of the day, and found a spot in the forest, above the river.</p>
         </section>
         <div class="grid-cols-2 gap-8 s-mt-32 m-mt-64 l-mt-96">
             <img class="s-col-span-2 m-col-span-1" src="../assets/20211012-143018.jpg">
@@ -256,7 +261,7 @@
         <footer class="flex justify-center border-t gray-32 s-mt-64 m-mt-96 l-mt-128 s-pb-32">
             <div class="container s-mt-16 l-mt-32 s-px-16 m-px-24 l-px-0">
                 <ul class="grid s-mt-16 l-mt-32 s-px-16 m-px-24 l-px-0">
-                    <li class="s-col-span-4 m-col-span-4 l-col-span-4">
+                    <li class="s-col-span-6 m-col-span-4 l-col-span-4">
                         <ul>
                             <li class="s-mt-8 l-mt-16 text-sm font-semibold gray-96">Links</li>
                             <li class="s-mt-8 l-mt-16"><a class="link text-sm font-semibold gray-72" href="https://www.komoot.com/fr-fr/collection/1877170/-bikepacking-toward-the-sahara-desert" target="blank">Komoot</a></li>
@@ -265,21 +270,23 @@
                             <li class="s-mt-8 l-mt-16"><a class="link text-sm font-semibold gray-72" href="https://lighterpack.com/r/ruee03" target="blank">Lighterpack</a></li>
                         </ul>
                     </li>
-                    <li class="s-col-span-4 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
+                    <li class="s-col-span-6 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
                         <ul>
                             <li class="s-mt-8 l-mt-16 text-sm font-semibold gray-96">Collections</li>
                             <li class="s-mt-8 l-mt-16"><a class="link text-sm font-semibold gray-72" href="../collections/bikepacking-towards-the-sahara.html">Bikepacking Toward the Sahara Desert</a></li>
                         </ul>
                     </li>
-                    <li class="s-col-span-4 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
+                    <li class="s-col-span-6 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
                         <ul>
                             <li class="s-mt-8 l-mt-16 text-sm font-semibold gray-96">Articles</li>
                             <li class="s-mt-8 l-mt-16"><a class="link text-sm font-semibold gray-72" href="#">The Millevaches National Park</a></li>
                         </ul>
                     </li>
                 </ul>
-                <p class="s-col-span-4 m-col-span-12 s-mt-64 m-mt-96 l-mt-128 text-sm gray-72">© 2023 Manuel Sourdrille / Release 1.2</p>
             </div>
         </footer>
+        <div class="flex justify-center s-mt-16 m-mt-24 l-mt-32 s-p-16 m-p-24 l-p-32">
+            <p class="text-xs gray-72">© 2023 Manuel Sourdrille / Release 1.3</p>
+        </div>
     </body>
 </html>

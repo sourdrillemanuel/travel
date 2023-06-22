@@ -12,7 +12,7 @@ RESET
 
 
 */
-/* line 14, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 14, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 * {
   margin: 0;
   padding: 0;
@@ -21,28 +21,28 @@ RESET
   font-size: 100%;
 }
 
-/* line 15, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 15, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 html {
   height: 100%;
   scroll-behavior: smooth;
 }
 
-/* line 16, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 16, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 body {
   height: 100%;
 }
 
-/* line 17, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 17, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 ol, ul, li {
   list-style: none;
 }
 
-/* line 18, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 18, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 19, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 19, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 a {
   text-decoration: none;
 }
@@ -57,7 +57,7 @@ DESIGN TOKENS
 
 */
 /* Colors */
-/* line 33, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 33, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 :root {
   --primary-88: #E0A52D;
   --secondary-72: #4271B8;
@@ -66,92 +66,99 @@ DESIGN TOKENS
   --gray-72: #B8AE9A;
   --gray-32: #524E45;
   --gray-16: #292722;
+  --gray-12: #1F1E1B;
 }
 
-/* line 43, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 44, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .primary-88 {
   color: var(--primary-88);
 }
 
-/* line 44, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 45, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .secondary-72 {
   color: var(--secondary-72);
 }
 
-/* line 45, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 46, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .secondary-88 {
   color: var(--secondary-88);
 }
 
-/* line 46, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 47, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .gray-96 {
   color: var(--gray-96);
 }
 
-/* line 47, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 48, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .gray-72 {
   color: var(--gray-72);
 }
 
-/* line 48, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 49, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .gray-32 {
   color: var(--gray-32);
 }
 
-/* line 49, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 50, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .gray-16 {
   color: var(--gray-16);
 }
 
-/* line 50, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 51, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.gray-12 {
+  color: var(--gray-12);
+}
+
+/* line 52, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .bg-gray-16 {
   background-color: var(--gray-16);
 }
 
-/* line 51, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 53, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.bg-gray-12 {
+  background-color: var(--gray-12);
+}
+
+/* line 54, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .bg-primary-88 {
   background-color: var(--primary-88);
 }
 
 /* Fonts */
-/* line 55, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
-.text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg,
-.text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg
-.text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg {
+/* line 58, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-md {
   font-family: 'EB Garamond', serif;
 }
 
-/* line 60, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
-.text-base, .text-sm, .text-xs,
-.text-base, .text-sm,
-.text-base, .text-sm {
+/* line 61, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.text-base, .text-sm, .text-xs {
   font-family: 'Inter', sans-serif;
 }
 
 /* Text style */
-/* line 68, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 67, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 68, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 67, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-right {
   text-align: right;
 }
 
 /* Font weight */
-/* line 72, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 71, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .font-normal {
   font-weight: 400;
 }
 
-/* line 72, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 71, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .font-semibold {
   font-weight: 600;
 }
 
 /* Font variant */
-/* line 76, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 75, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .italic {
   font-style: italic;
 }
@@ -166,56 +173,56 @@ SMALL DEVICES
 
 */
 /* Typescale */
-/* line 90, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 89, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-4xl {
   font-size: 4rem;
   /* 64px */
   line-height: 100%;
 }
 
-/* line 94, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 93, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-3xl {
   font-size: 3rem;
   /* 48px */
   line-height: 100%;
 }
 
-/* line 98, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 97, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-2xl {
   font-size: 2.5rem;
   /* 40px */
   line-height: 100%;
 }
 
-/* line 102, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 101, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-xl {
   font-size: 2rem;
   /* 32px */
   line-height: 100%;
 }
 
-/* line 106, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 105, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-lg {
   font-size: 1.5rem;
   /* 24px */
   line-height: 125%;
 }
 
-/* line 110, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 109, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-md {
   font-size: 1.125rem;
   /* 18px */
   line-height: 150%;
 }
 
-/* line 114, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 113, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-sm {
   font-size: 0.875rem;
   /* 14px */
   line-height: 150%;
 }
 
-/* line 118, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 117, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .text-xs {
   font-size: 0.75rem;
   /* 12px */
@@ -223,21 +230,21 @@ SMALL DEVICES
 }
 
 /* Layout */
-/* line 125, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 124, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .container {
   width: 100%;
 }
 
 /* Grid */
-/* line 129, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 128, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   column-gap: 1rem;
   /* 16px */
 }
 
-/* line 134, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 133, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .grid-cols-2 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -246,169 +253,208 @@ SMALL DEVICES
 }
 
 /* Columns */
-/* line 142, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 141, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-col-span-1 {
   grid-column: span 1;
 }
 
-/* line 143, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 142, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-col-span-2 {
   grid-column: span 2;
 }
 
-/* line 144, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 143, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.s-col-span-3 {
+  grid-column: span 3;
+}
+
+/* line 144, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-col-span-4 {
   grid-column: span 4;
 }
 
+/* line 145, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.s-col-span-6 {
+  grid-column: span 6;
+}
+
 /* Position */
-/* line 148, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 149, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-top--16 {
   top: -1rem;
 }
 
 /* -16px */
-/* line 149, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 150, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-top--12 {
   top: -0.75rem;
 }
 
 /* -12px */
 /* Margins */
-/* line 153, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 154, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-ml-4 {
   margin-left: 0.25rem;
 }
 
 /* 4px */
-/* line 154, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 155, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-ml-8 {
   margin-left: 0.5rem;
 }
 
 /* 8px */
-/* line 155, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 156, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt--16 {
   margin-top: -1rem;
 }
 
 /* -16px */
-/* line 156, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 157, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-2 {
   margin-top: 0.125rem;
 }
 
 /* 2px */
-/* line 157, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 158, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-4 {
   margin-top: 0.25rem;
 }
 
 /* 4px */
-/* line 158, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 159, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-8 {
   margin-top: 0.5rem;
 }
 
 /* 8px */
-/* line 159, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 160, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-12 {
   margin-top: 0.75rem;
 }
 
 /* 12px */
-/* line 160, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 161, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-16 {
   margin-top: 1rem;
 }
 
 /* 16px */
-/* line 161, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 162, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-24 {
   margin-top: 1.5rem;
 }
 
 /* 24px */
-/* line 162, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 163, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-32 {
   margin-top: 2rem;
 }
 
 /* 32px */
-/* line 163, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 164, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-48 {
   margin-top: 3rem;
 }
 
 /* 48px */
-/* line 164, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 165, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-mt-64 {
   margin-top: 4rem;
 }
 
 /* 64px */
+/* line 166, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.s-mt-72 {
+  margin-top: 4.5rem;
+}
+
+/* 72px */
+/* line 167, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.s-mt-96 {
+  margin-top: 6rem;
+}
+
+/* 96px */
+/* line 169, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.s-mr-16 {
+  margin-right: 1rem;
+}
+
+/* 16px */
 /* Paddings */
-/* line 168, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 173, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-px-16 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 /* 16px */
-/* line 170, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 175, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-py-8 {
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
 
 /* 8px */
-/* line 171, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 176, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-py-16 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
 /* 16px */
-/* line 172, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 177, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-py-64 {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 /* 64px */
-/* line 174, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 179, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-pt-64 {
   padding-top: 4rem;
 }
 
 /* 64px */
-/* line 176, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 181, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-pb-4 {
   padding-bottom: 0.25rem;
 }
 
 /* 8px */
-/* line 177, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 182, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-pb-16 {
   padding-bottom: 1rem;
 }
 
 /* 8px */
-/* line 178, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 183, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-pb-32 {
   padding-bottom: 2rem;
 }
 
 /* 16px */
-/* line 179, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 184, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-pb-64 {
   padding-bottom: 4rem;
 }
 
 /* 64px */
-/* line 181, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 186, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.s-p-16 {
+  padding: 1rem;
+}
+
+/* 16px */
+/* line 188, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .s-justify-self-auto {
   justify-self: auto;
+}
+
+/* line 190, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.s-hidden {
+  display: none;
 }
 
 /*
@@ -422,51 +468,51 @@ MEDIUM DEVICES
 */
 @media (min-width: 48rem) {
   /* Typescale */
-  /* line 197, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 206, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-4xl {
     font-size: 6rem;
     /* 96px */
     line-height: 100%;
   }
-  /* line 201, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 210, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-3xl {
     font-size: 4rem;
     /* 64px */
     line-height: 100%;
   }
-  /* line 205, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 214, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-2xl {
     font-size: 3rem;
     /* 48px */
     line-height: 100%;
   }
-  /* line 209, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 218, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-xl {
     font-size: 2.5rem;
     /* 40px */
     line-height: 100%;
   }
-  /* line 213, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 222, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-lg {
     font-size: 2rem;
     /* 32px */
     line-height: 125%;
   }
-  /* line 217, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 226, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-sm {
     font-size: 1rem;
     /* 16px */
     line-height: 150%;
   }
   /* Grid */
-  /* line 224, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 233, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .grid {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     column-gap: 1.5rem;
     /* 24px */
   }
-  /* line 229, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 238, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .grid-cols-2 {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -474,128 +520,152 @@ MEDIUM DEVICES
     /* 24px */
   }
   /* Columns */
-  /* line 238, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 247, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-span-1 {
     grid-column: span 1;
   }
-  /* line 239, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 248, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-span-2 {
     grid-column: span 2;
   }
-  /* line 240, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 249, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-span-3 {
     grid-column: span 3;
   }
-  /* line 241, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 250, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-span-4 {
     grid-column: span 4;
   }
-  /* line 242, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 251, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-span-6 {
     grid-column: span 6;
   }
-  /* line 243, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 252, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-span-8 {
     grid-column: span 8;
   }
-  /* line 244, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 253, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-span-12 {
     grid-column: span 12;
   }
-  /* line 245, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 254, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-2-5 {
     grid-column: 2 / 5;
   }
-  /* line 246, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 255, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-2-8 {
     grid-column: 2 / 8;
   }
-  /* line 247, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 256, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-col-5-8 {
     grid-column: 5 / 8;
   }
   /* Position */
-  /* line 251, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 260, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-top--24 {
     top: -1.5rem;
   }
   /* -24px */
   /* Margins */
-  /* line 255, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 264, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt--24 {
     margin-top: -1.5rem;
   }
   /* -24px */
-  /* line 257, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 266, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-0 {
     margin-top: 0rem;
   }
   /* 0px */
-  /* line 258, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 267, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-4 {
     margin-top: 0.25rem;
   }
   /* 4px */
-  /* line 259, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 268, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-12 {
     margin-top: 0.75rem;
   }
   /* 12px */
-  /* line 260, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 269, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-16 {
     margin-top: 1rem;
   }
   /* 16px */
-  /* line 261, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 270, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-24 {
     margin-top: 1.5rem;
   }
   /* 24px */
-  /* line 262, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 271, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-48 {
     margin-top: 3rem;
   }
   /* 48px */
-  /* line 263, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 272, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-64 {
     margin-top: 4rem;
   }
   /* 64px */
-  /* line 264, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 273, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-72 {
     margin-top: 4.5rem;
   }
   /* 72px */
-  /* line 265, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 274, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-mt-96 {
     margin-top: 6rem;
   }
-  /* 72px */
+  /* 96px */
+  /* line 275, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .m-mt-128 {
+    margin-top: 8rem;
+  }
+  /* 128px */
+  /* line 276, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .m-mt-192 {
+    margin-top: 12rem;
+  }
+  /* 192px */
+  /* line 278, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .m-mr-24 {
+    margin-right: 1.5rem;
+  }
+  /* 24px */
   /* Paddings */
-  /* line 269, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 282, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-px-0 {
     padding-left: 0rem;
     padding-right: 0rem;
   }
   /* 0px */
-  /* line 270, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 283, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-px-24 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
   /* 0px */
-  /* line 271, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 284, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-px-32 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
   /* 32px */
-  /* line 272, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 285, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .m-py-64 {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
   /* 64px */
+  /* line 287, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .m-p-24 {
+    padding: 1.5rem;
+  }
+  /* 24px */
+  /* line 289, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .m-block {
+    display: block;
+  }
 }
 
 /*
@@ -609,312 +679,353 @@ LARGE DEVICES
 */
 @media (min-width: 80rem) {
   /* Typescale */
-  /* line 289, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 306, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-4xl {
     font-size: 8rem;
     /* 128px */
     line-height: 100%;
   }
-  /* line 293, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 310, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-3xl {
     font-size: 6rem;
     /* 96px */
     line-height: 100%;
   }
-  /* line 297, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 314, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-2xl {
     font-size: 4rem;
     /* 64px */
     line-height: 100%;
   }
-  /* line 301, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 318, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-xl {
     font-size: 3rem;
     /* 48px */
     line-height: 100%;
   }
-  /* line 305, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 322, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-lg {
     font-size: 2rem;
     /* 32px */
     line-height: 125%;
   }
-  /* line 309, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 326, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-md {
     font-size: 1.25rem;
     /* 20px */
     line-height: 150%;
   }
-  /* line 313, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 330, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .text-sm {
     font-size: 1rem;
     /* 16px */
     line-height: 150%;
   }
+  /* line 334, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .text-xs {
+    font-size: .875rem;
+    /* 14px */
+    line-height: 150%;
+  }
   /* Container */
-  /* line 320, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 341, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .container {
     width: 1216px;
   }
   /* Grid */
-  /* line 326, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 347, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .grid {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     column-gap: 2rem;
     /* 32px */
   }
-  /* line 331, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 352, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .grid-cols-2 {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 2rem;
     /* 32px */
   }
+  /* line 357, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .grid-cols-3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 2rem;
+    /* 32px */
+  }
   /* Columns */
-  /* line 339, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 365, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-span-1 {
     grid-column: span 1;
   }
-  /* line 340, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 366, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-span-3 {
     grid-column: span 3;
   }
-  /* line 341, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 367, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-span-4 {
     grid-column: span 4;
   }
-  /* line 342, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 368, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-span-6 {
     grid-column: span 6;
   }
-  /* line 343, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 369, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-span-7 {
     grid-column: span 7;
   }
-  /* line 344, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 370, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-span-8 {
     grid-column: span 8;
   }
   /*  2 equally distributed img in a same row */
-  /* line 345, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 371, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-span-12 {
     grid-column: span 12;
   }
-  /* line 346, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 372, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-span-16 {
     grid-column: span 16;
   }
-  /* line 347, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 373, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-1-3 {
     grid-column: 1 / 3;
   }
-  /* line 348, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 374, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-1-6 {
     grid-column: 1 / 6;
   }
-  /* line 349, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 375, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-1-7 {
     grid-column: 1 / 7;
   }
-  /* line 350, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 376, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-2-5 {
     grid-column: 2 / 5;
   }
   /* Figcaption */
-  /* line 351, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 377, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-2-6 {
     grid-column: 2 / 6;
   }
-  /* line 352, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 378, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-2-8 {
     grid-column: 2 / 8;
   }
-  /* line 353, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 379, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-2-16 {
     grid-column: 2 / 16;
   }
-  /* line 354, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 380, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-3-7 {
     grid-column: 3 / 7;
   }
-  /* line 355, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 381, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-3-11 {
     grid-column: 3 / 11;
   }
-  /* line 356, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 382, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-3-15 {
     grid-column: 3 / 15;
   }
-  /* line 357, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 383, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-4-9 {
     grid-column: 4 / 9;
   }
-  /* line 358, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 384, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-5-9 {
     grid-column: 5 / 9;
   }
-  /* line 359, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 385, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-5-13 {
     grid-column: 5 / 13;
   }
-  /* line 360, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 386, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-7-9 {
     grid-column: 7 / 9;
   }
-  /* line 361, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 387, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-7-11 {
     grid-column: 7 / 11;
   }
-  /* line 362, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 388, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-7-13 {
     grid-column: 7 / 13;
   }
-  /* line 363, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 389, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-8-16 {
     grid-column: 8 / 16;
   }
-  /* line 364, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 390, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-9-11 {
     grid-column: 9 / 11;
   }
-  /* line 365, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 391, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-9-13 {
     grid-column: 9 / 13;
   }
-  /* line 366, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 392, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-9-14 {
     grid-column: 9 / 14;
   }
-  /* line 367, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 393, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-9-17 {
     grid-column: 9 / 17;
   }
-  /* line 368, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 394, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-11-17 {
     grid-column: 11 / 17;
   }
-  /* line 369, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 395, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-col-12-17 {
     grid-column: 12 / 17;
   }
   /* Position */
-  /* line 373, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 399, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-top--32 {
     top: -2rem;
   }
   /* -32px */
+  /* line 400, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .l-left-32 {
+    top: 2rem;
+  }
+  /* 32px */
   /* Margins */
-  /* line 377, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 404, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt--32 {
     margin-top: -2rem;
   }
   /* -32px */
-  /* line 378, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 405, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-0 {
     margin-top: 0rem;
   }
   /* 0px */
-  /* line 379, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 406, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-8 {
     margin-top: 0.5rem;
   }
   /* 8px */
-  /* line 380, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 407, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-16 {
     margin-top: 1rem;
   }
   /* 16px */
-  /* line 381, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 408, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-24 {
     margin-top: 1.5rem;
   }
   /* 24px */
-  /* line 382, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 409, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-32 {
     margin-top: 2rem;
   }
   /* 32px */
-  /* line 383, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 410, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-48 {
     margin-top: 3rem;
   }
   /* 48px */
-  /* line 384, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 411, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-64 {
     margin-top: 4rem;
   }
   /* 48px */
-  /* line 385, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 412, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-96 {
     margin-top: 6rem;
   }
   /* 96px */
-  /* line 386, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 413, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-128 {
     margin-top: 8rem;
   }
   /* 128px */
-  /* line 387, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 414, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-mt-192 {
     margin-top: 12rem;
   }
   /* 192px */
+  /* line 415, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .l-mt-280 {
+    margin-top: 17.5rem;
+  }
+  /* 320px */
+  /* line 417, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .l-mr-32 {
+    margin-right: 2rem;
+  }
+  /* line 419, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .l-mx-32 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
   /* Paddings */
-  /* line 391, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 423, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-py-16 {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
   /* 16px */
-  /* line 392, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 424, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-py-24 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
   /* 24px */
-  /* line 393, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 425, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-py-32 {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
   /* 32px */
-  /* line 394, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 426, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-py-128 {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
   /* 128px */
-  /* line 396, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 428, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-px-0 {
     padding-left: 0rem;
     padding-right: 0rem;
   }
   /* 0px */
-  /* line 397, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 429, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-px-32 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
   /* 32px */
-  /* line 398, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 430, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-pt-96 {
     padding-top: 6rem;
   }
   /* 96px */
-  /* line 400, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 432, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-pb-8 {
     padding-bottom: 0.5rem;
   }
   /* 8px */
-  /* line 401, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 433, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-pb-32 {
     padding-bottom: 2rem;
   }
   /* 16px */
-  /* line 403, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+  /* line 435, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .l-p-32 {
+    padding: 2rem;
+  }
+  /* 32px */
+  /* line 437, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
   .l-justify-self-end {
     justify-self: end;
+  }
+  /* line 439, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+  .l-block {
+    display: block;
   }
 }
 
@@ -928,136 +1039,156 @@ GENERAL STYLES
 
 */
 /* Layout */
-/* line 418, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 454, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 header, section, footer {
   width: 100%;
 }
 
-/* line 419, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 455, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 img {
   max-width: 100%;
 }
 
-/* line 421, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
-.container-wide {
+/* line 457, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.w-100 {
   width: 100%;
 }
 
-/* line 422, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 458, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.w-96px {
+  width: 96px;
+}
+
+/* line 459, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.h-100 {
+  height: 100%;
+}
+
+/* line 460, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .content-w {
   max-width: 40rem;
 }
 
-/* line 423, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 461, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .container-80h {
   height: 80%;
 }
 
-/* line 425, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 463, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.top-0 {
+  top: 0;
+}
+
+/* line 465, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .flex {
   display: flex;
 }
 
-/* line 426, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 466, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .inline-block {
   display: inline-block;
 }
 
-/* line 428, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 468, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .gap-8 {
   column-gap: 0.5rem;
 }
 
-/* line 429, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 469, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .gap-16 {
   column-gap: 1rem;
 }
 
-/* line 431, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 471, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .absolute {
   position: absolute;
 }
 
-/* line 432, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 472, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 473, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .relative {
   position: relative;
 }
 
-/* line 434, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 475, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .z-0 {
   z-index: 0;
 }
 
-/* line 434, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
-.z-10 {
-  z-index: 10;
+/* line 475, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.z-1 {
+  z-index: 1;
 }
 
 /* Buttons */
-/* line 438, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
-.link-standalone:hover {
-  color: var(--secondary-88);
+/* line 479, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.link:hover {
+  text-decoration: underline;
 }
 
-/* line 441, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 482, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .btn-secondary {
   padding: 0.5rem 1rem;
   border: 1px solid var(--secondary-88);
   border-radius: 2rem;
 }
 
-/* line 446, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 487, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .btn-secondary:hover {
   background-color: var(--secondary-88);
   color: var(--gray-96);
 }
 
-/* line 450, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
-.link:hover {
-  color: var(--secondary-88);
+/* line 491, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.card h2:hover, .card h4:hover {
+  text-decoration: underline;
 }
 
 /* Borders */
-/* line 456, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 497, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .border-t {
   border-top: 1px solid;
 }
 
-/* line 456, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 497, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .border-b {
   border-bottom: 1px solid;
 }
 
-/* line 456, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 497, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .border {
   border: 1px solid;
 }
 
-/* line 456, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 497, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .border-x {
   border-left: 1px solid;
   border-right: 1px solid;
 }
 
-/* line 456, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 497, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .border-y {
   border-top: 1px solid;
   border-bottom: 1px solid;
 }
 
-/* line 457, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 498, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .rounded {
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 /* Components */
-/* line 461, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 502, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .badge {
   border-radius: 2rem;
   padding: 0 .5rem;
 }
 
-/* line 465, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 506, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .tag {
   border: 1px solid;
   border-radius: 2rem;
@@ -1065,77 +1196,87 @@ img {
 }
 
 /* Modifiers */
-/* line 473, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 514, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .items-center {
   align-items: center;
 }
 
-/* line 473, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 514, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .items-start {
   align-items: flex-start;
 }
 
-/* line 474, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 515, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .justify-center {
   justify-content: center;
 }
 
-/* line 475, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 515, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.justify-between {
+  justify-content: space-between;
+}
+
+/* line 516, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .justify-items-center {
   justify-items: center;
 }
 
-/* line 476, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 517, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .justify-self-center {
   justify-self: center;
 }
 
-/* line 477, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 517, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.justify-self-end {
+  justify-self: end;
+}
+
+/* line 518, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .flex-row {
   flex-direction: row;
 }
 
-/* line 477, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 518, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .flex-col {
   flex-direction: column;
 }
 
-/* line 477, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 518, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .flex-wrap {
   flex-flow: wrap;
 }
 
-/* line 478, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 519, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .self-start {
   align-self: flex-start;
 }
 
-/* line 478, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 519, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .self-center {
   align-self: center;
 }
 
-/* line 478, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 519, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .self-end {
   align-self: end;
 }
 
-/* line 480, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 521, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .max-content {
   grid-auto-rows: max-content;
 }
 
-/* line 481, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 522, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .w-fit {
   width: fit-content;
 }
 
-/* line 482, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 523, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .h-80vh {
   height: 80vh;
 }
 
-/* line 483, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 524, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1150,12 +1291,41 @@ UNIQUE STYLING
 
 */
 /* Unique backgrounds for articles' header */
-/* line 497, E:/Design/Clients/Personal/202208 - Personal Travel Blog/Dev/input/main.scss */
+/* line 538, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
 #article-001 {
   height: 100%;
   background: center center url(../assets/20211010-100008.jpg) rgba(0, 0, 0, 0.24);
   background-size: cover;
   background-blend-mode: multiply;
+}
+
+/* line 544, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+#collection-01 {
+  height: 100%;
+  background: center center url(../assets/20220125-131059.jpg) rgba(48, 12, 12, 0.48);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* line 550, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+#collection-02 {
+  height: 100%;
+  background: center center url(../assets/20210605-193727.jpg) rgba(48, 12, 12, 0.48);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* */
+/* line 559, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.carousel {
+  height: 60vh;
+}
+
+/* line 563, E:/Design/Clients/Manuel Sourdrille/202208 - Personal Travel Blog/2 Dev/input/main.scss */
+.carousel-cell {
+  width: 80vw;
+  height: inherit;
+  counter-increment: gallery-cell;
 }
 
 /*# sourceMappingURL=main.css.map */

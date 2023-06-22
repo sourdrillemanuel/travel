@@ -11,46 +11,78 @@
         <link href="output/main.css" rel="stylesheet">
         <link href="../output/main.css" rel="stylesheet">
     </head>
-    <body class="bg-gray-16">
-        
+    <body class="bg-gray-12">
+       
         <!-- NAV -->
         
-        <nav class="grid-cols-2 s-mt-16 m-mt-24 l-mt-32 s-px-16 m-px-24 l-px-32">
-            <div class="flex s-col-span-2 l-col-span-1 gap-8">
-                <p class="text-sm font-semibold gray-96">Manuel Sourdrille</p>
-                <p class="text-sm gray-72">A no-nonsense travel blog</p>
-            </div>
-            <div class="flex s-col-span-2 l-col-span-1 gap-8 s-mt-16 m-mt-24 l-mt-0 s-justify-self-auto l-justify-self-end">
-                <a href="../index.html" class="link-standalone text-sm gray-72">Collections</a>
-                <p class="text-sm gray-72">/</p>
-                <p class="text-sm font-semibold gray-96">Bikepacking towards the Sahara</p>
+        <nav class="fixed top-0 w-100 z-1 s-p-16 m-p-24 l-p-32">
+            <div class="w-100">
+                <ul class="grid s-p-16 m-p-24 l-p-32 bg-gray-12 border rounded gray-32">
+                    <li class="s-col-span-3 m-col-span-4 l-col-span-4 text-sm font-semibold gray-96">Manu's Travel</li>
+                    <li class="l-col-span-4 s-hidden l-block text-center text-sm gray-72">A no-nonsense blog with bikepacking stories</li>
+                    <li class="s-col-span-3 m-col-span-8 l-col-span-4 flex justify-self-end">
+                        <ul class="flex gap-8">
+                            <li><a href="../index.html" class="link text-sm gray-72">All collections</a></li>
+                            <li class="s-hidden m-block text-sm gray-72">/</li>
+                            <li class="s-hidden m-block text-sm font-semibold gray-72">Bikepacking towards the Sahara</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
         
         <!-- HEADER -->
         
-        <header class="s-mt-32 m-mt-64 l-mt-128">
+        <header class="flex justify-center s-mt-96 m-mt-192 l-mt-280">
             <div class="flex justify-center">
                 <div class="container grid s-col-span-2 items-center s-px-16 m-px-24 l-px-0">
-                    <div class="flex flex-col s-col-span-4 m-col-span-12 l-col-span-12">
-                        <p class="s-col-span-4 m-col-span-12 l-col-span-12 text-sm font-semibold text-center gray-72">Collection</p>
-                        <h1 class="s-col-span-4 m-col-span-12 l-col-span-12 s-mt-16 text-3xl font-semibold text-center primary-88">Bikepacking Toward the Sahara Desert</h1>
-                        <img class="s-mt-16 m-mt-24 l-mt-32 self-center" src="../assets/graphic-wave.svg">
+                    <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-span-12 items-center">
+                        <ul class="flex gap-8">
+                        <li class="tag text-xs font-semibold gray-96">Europe</li>
+                        <li class="tag text-xs font-semibold gray-96">Africa</li>
+                    </ul>
+                    <h2 class="s-mt-16 s-px-16 m-px-24 l-px-32 text-3xl text-center primary-88">Bikepacking toward the Sahara</h2>
+                    <p class="s-mt-16 s-px-16 m-px-24 l-px-32 text-sm text-center text-center font-semibold gray-96">20 articles</p>
                     </div>
                 </div>
             </div>
-            <img class="s-col-span-4 m-col-span-12 l-col-span-12 s-mt-64 m-mt-96 l-mt-192" src="../assets/collection-01-header.jpg">
         </header>
+        
+        <!-- ARTICLES -->
+        
+        <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128 border-y gray-32">
+            <div class="container grid s-px-16 m-px-24 l-px-0">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-12 s-px-16 m-px-32 s-py-8 l-py-16 border-x gray-32">
+                    <p class="text-lg gray-96">Articles <span class="badge relative s-top--16 text-xs font-semibold bg-primary-88 gray-16">1</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="flex justify-center s-mt-16 m-mt-24 l-mt-32">
+            <div class="container grid s-px-16 m-px-24 l-px-0">
+                <a href="../articles/the-millevaches-regional-parks.html" class="card s-col-span-3 m-col-span-4 l-col-span-3 s-mt-16 m-mt-24 l-mt-0">
+                    <img class="rounded" src="../assets/article-01-thumbnail.jpg">
+                    <p class="s-mt-8 m-mt-12 l-mt-16 text-sm text-center font-semibold gray-72">Article 1 <span class="italic">of</span> 10</p>
+                    <h4 class="s-mt-8 m-mt-12 l-mt-16 text-lg text-center font-medium gray-96">The Millevaches Regional Park</h4>
+                </a>
+            </div>
+        </section>
         
         <!-- ROUTE -->
         
+        <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128 border-y gray-32">
+            <div class="container grid s-px-16 m-px-24 l-px-0">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-12 s-px-16 m-px-32 s-py-8 l-py-16 border-x gray-32">
+                    <p class="text-lg gray-96">Itinerary</p>
+                </div>
+            </div>
+        </section>
         <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128">
             <div class="container grid s-px-16 m-px-24 l-px-0">
-                <div class="s-col-span-4 m-col-span-12 l-col-span-12 content-w justify-self-center">
-                    <h2 class="s-mt-8 m-mt-16 text-2xl text-center font-semibold primary-88">Itinerary</h2>
-                    <p class="s-mt-16 m-mt-24 l-mt-32 text-md text-center gray-72">After enjoying a great summer with friends and family, I started my journey southwards with the goal of reaching Sicily by December. The idea was to spend winter cycling in Southern Europe. I crossed France, from West to South, before cycling in Corsica, Sardegna, and Sicily. Eventually, I reached Tunisia which turned out to be an exceptional country to cycle in.</p>
+                <div class="s-col-span-6 m-col-span-12 l-col-span-12 content-w justify-self-center">
+                    <p class="text-md text-center gray-72">After enjoying a great summer with friends and family, I started my journey southwards with the goal of reaching Sicily by December. The idea was to spend winter cycling in Southern Europe. I crossed France, from West to South, before cycling in Corsica, Sardegna, and Sicily. Eventually, I reached Tunisia which turned out to be an exceptional country to cycle in.</p>
                 </div>
-                <div class="s-col-span-4 m-col-span-12 l-col-span-8 s-mt-64 m-mt-96 l-mt-128 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
+                <img class="s-col-span-6 m-col-span-12 l-col-span-12 s-mt-64 m-mt-96 l-mt-128 border rounded gray-32" src="../assets/collection-01-map.jpg">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-8 s-mt-16 m-mt-24 l-mt-32 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
                     <h3 class="text-lg font-semibold gray-96">Statistics</h3>
                     <ul class="s-mt-8 m-mt-16 l-mt-32">
                         <li class="s-py-16 l-py-24 border-b gray-32">
@@ -91,7 +123,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="s-col-span-4 m-col-span-12 l-col-span-4 s-mt-16 m-mt-24 l-mt-128 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
+                <div class="s-col-span-6 m-col-span-12 l-col-span-4 s-mt-16 m-mt-24 l-mt-32 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
                     <h3 class="text-lg font-semibold gray-96">Resources</h3>
                     <div class="flex flex-wrap gap-16">
                         <p><a class="flex items-center s-mt-16 btn-secondary text-sm font-semibold secondary-88" href="https://www.komoot.com/fr-fr/collection/1877170/-bikepacking-toward-the-sahara-desert" target="blank">Komoot<img class="s-ml-4" src="../assets/icon-external-link.svg"></a></p>
@@ -100,40 +132,20 @@
                         <p><a class="flex items-center s-mt-16 btn-secondary text-sm font-semibold secondary-88" href="https://lighterpack.com/r/ruee03" target="blank">Lighterpack<img class="s-ml-4" src="../assets/icon-external-link.svg"></a></p>
                     </div>
                 </div>
-                <ul class="grid s-col-span-4 m-col-span-12 s-mt-16 m-mt-24 l-mt-32 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
-                    <li class="s-col-span-4 l-col-span-4">
+                <ul class="grid s-col-span-6 m-col-span-12 s-mt-16 m-mt-24 l-mt-32 s-py-16 l-py-32 s-px-16 l-px-32 border rounded gray-32">
+                    <li class="s-col-span-6 l-col-span-4">
                         <h4 class="text-md font-semibold gray-96">Climate</h4>
                         <p class="s-mt-8 m-mt-12 l-mt-16 text-md gray-72">Around the Mediterranean basin, summer is usually too hot for cycling. Cycling during autumn in Southern France is nice but beware the <span class="italic">orages cévénols</span>, a season of intense thunderstorms in the Cévennes. Corsica is great in autumn: the sea is still warm enough to swim and the highest routes are not yet covered in snow. Sardinia and Sicily, being south of Corsica, have fair weather during fall, especially in Southern Sicily, while the mountainous Northern region might be covered in snow. I found wintertime to be great in Tunisia: in the south, it's between 15°c and 20°c during the day, and around 0°c during the night. The Northern coast might be milder but also wetter and windier. Avoid summer in Tunisia.</p>
                     </li>
-                    <li class="s-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
+                    <li class="s-col-span-6 l-col-span-4 s-mt-16 m-mt-0">
                         <h4 class="text-md font-semibold gray-96">Wild camping</h4>
                         <p class="s-mt-8 m-mt-12 l-mt-16 text-md gray-72">I don't know the official rules of each country but wild camping is relatively easy, except in Sicily which has very little preserved nature left. In Tunisia, head for the numerous mountain ranges to camp, away from cultivated lands. Camping in Southern Tunisia is fantastic: open space, no one around and an amazing night sky.</p>
                     </li>
-                    <li class="s-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
+                    <li class="s-col-span-6 l-col-span-4 s-mt-16 m-mt-24 l-mt-0">
                         <h4 class="text-md font-semibold gray-96">Water and food</h4>
                         <p class="s-mt-8 m-mt-12 l-mt-16 text-md gray-72">Water and food are not a problem in any of the places I have been to. In Tunisia, there are small shops and fast food in every little village and markets in bigger ones. Don't rely on rivers that will be dry in autumn.</p>
                     </li>
                 </ul>
-                <img class="s-col-span-4 m-col-span-12 l-col-span-12 s-mt-16 m-mt-24 l-mt-32 border rounded gray-32" src="../assets/collection-01-map.jpg">
-            </div>
-        </section>
-        
-        <!-- ARTICLES -->
-        
-        <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128 border-y gray-32">
-            <div class="container grid s-px-16 m-px-24 l-px-0">
-                <div class="s-col-span-4 m-col-span-12 l-col-span-12 s-px-16 m-px-32 s-py-8 l-py-16 border-x gray-32">
-                    <p class="text-lg gray-96">Articles <span class="badge relative s-top--16 text-xs font-semibold bg-primary-88 gray-16">1</span></p>
-                </div>
-            </div>
-        </section>
-        <section class="flex justify-center s-mt-16 m-mt-24 l-mt-32">
-            <div class="container grid s-px-16 m-px-24 l-px-0">
-                <a href="../articles/the-millevaches-regional-parks.html" class="s-col-span-2 m-col-span-4 l-col-span-3 s-mt-16 m-mt-24 l-mt-32">
-                    <img class="rounded" src="../assets/article-01-thumbnail.jpg">
-                    <p class="s-mt-8 m-mt-12 l-mt-16 text-sm text-center font-semibold gray-72">Article 1 <span class="italic">of</span> 10</p>
-                    <h4 class="s-mt-8 m-mt-12 l-mt-16 text-lg text-center font-medium gray-96">The Millevaches Regional Park</h4>
-                </a>
             </div>
         </section>
         
@@ -142,7 +154,7 @@
         <footer class="flex justify-center border-t gray-32 s-mt-64 m-mt-96 l-mt-128 s-pb-32">
             <div class="container s-mt-16 l-mt-32 s-px-16 m-px-24 l-px-0">
                 <ul class="grid s-mt-16 l-mt-32 s-px-16 m-px-24 l-px-0">
-                    <li class="s-col-span-4 m-col-span-4 l-col-span-4">
+                    <li class="s-col-span-6 m-col-span-4 l-col-span-4">
                     <ul>
                         <li class="s-mt-8 l-mt-16 text-sm font-semibold gray-96">Links</li>
                         <li class="s-mt-8 l-mt-16"><a class="link text-sm font-semibold gray-72" href="https://www.komoot.com/fr-fr/collection/1877170/-bikepacking-toward-the-sahara-desert" target="blank">Komoot</a></li>
@@ -151,20 +163,22 @@
                         <li class="s-mt-8 l-mt-16"><a class="link text-sm font-semibold gray-72" href="https://lighterpack.com/r/ruee03" target="blank">Lighterpack</a></li>
                     </ul>
                 </li>
-                <li class="s-col-span-4 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
+                <li class="s-col-span-6 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
                     <ul>
                         <li class="s-mt-8 l-mt-16 text-sm font-semibold gray-96">Collections</li>
                         <li class="s-mt-8 l-mt-16"><a class="link text-sm font-semibold gray-72" href="#">Bikepacking Toward the Sahara Desert</a></li>
                     </ul>
                 </li>
-                <li class="s-col-span-4 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
+                <li class="s-col-span-6 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
                     <ul>
                         <li class="s-mt-8 l-mt-16 text-sm font-semibold gray-96">Articles</li>
                         <li class="s-mt-8 l-mt-16"><a class="link text-sm font-semibold gray-72" href="../articles/the-millevaches-regional-parks.html">The Millevaches National Park</a></li>
                     </ul>
                 </ul>
-                <p class="s-col-span-4 m-col-span-12 s-mt-64 m-mt-96 l-mt-128 text-sm gray-72">© 2023 Manuel Sourdrille / Release 1.2</p>
             </div>
         </footer>
+        <div class="flex justify-center s-mt-16 m-mt-24 l-mt-32 s-p-16 m-p-24 l-p-32">
+            <p class="text-xs gray-72">© 2023 Manuel Sourdrille / Release 1.3</p>
+        </div>
     </body>
 </html>
